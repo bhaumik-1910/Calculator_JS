@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <div class="box"><br>
+        <input type="number" id="inputElement" class="inpt" placeholder="Enter numbers only" step="any">
+        <div class="first-row">
+            <button id="one" class="btn" onclick="addValue('1')">1</button>
+            <button id="two" class="btn" onclick="addValue('2')">2</button>
+            <button id="three" class="btn" onclick="addValue('3')">3</button>
+            <button id="add" class="Symbol" onclick="calculate('plus')">+</button>
+        </div>
+        <div class="first-row">
+            <button id="four" class="btn" onclick="addValue('4')">4</button>
+            <button id="five" class="btn" onclick="addValue('5')">5</button>
+            <button id="six" class="btn" onclick="addValue('6')">6</button>
+            <button id="sub" class="Symbol" onclick="calculate('minus')">-</button>
+        </div>
+        <div class="first-row">
+            <button id="seven" class="btn" onclick="addValue('7')">7</button>
+            <button id="eight" class="btn" onclick="addValue('8')">8</button>
+            <button id="nine" class="btn" onclick="addValue('9')">9</button>
+            <button id="mul" class="Symbol" onclick="calculate('multiplication')">*</button>
+        </div>
+        <div class="first-row">
+            <button id="zero" class="btn" onclick="addValue('0')">0</button>
+            <button id="dot" class="btn" onclick="addValue('.')">.</button>
+            <button id="div" class="Symbol" onclick="calculate('division')">/</button>
+            <button id="equal" class="Symbol" onclick="answer()">=</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

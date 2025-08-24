@@ -1,0 +1,92 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/red-and-blue-calculators-yxm0myfzuym67431.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20%;
+    background-color: rgba(3, 3, 3, 0.323);
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 500px;
+}
+
+.first-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 139, 0.881);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+
+}
+
+.btn:active {
+    border: 2px inset crimson;
+    box-shadow: 0 0 5px rgb(216, 216, 222), 0 0 25px rgb(218, 218, 225), 0 0 50px rgb(225, 225, 229), 0 0 200px rgb(233, 231, 231);
+}
+
+.inpt {
+    display: flex;
+    height: 60px;
+    width: 80%;
+    border-radius: 50px;
+}
+
+.input::after {
+    border-radius: 10%;
+}
+
+input[type="number"] {
+    font-size: larger;
+    padding-left: 20px;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.Symbol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: crimson;
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    margin: 5px;
+
+
+}
+
+.Symbol:active {
+    border: 2px inset rgba(0, 0, 139, 0.881);
+    box-shadow: 0 0 5px rgb(45, 45, 46), 0 0 25px rgb(61, 61, 62), 0 0 50px rgb(42, 42, 43), 0 0 200px rgb(47, 47, 47);
+
+}
